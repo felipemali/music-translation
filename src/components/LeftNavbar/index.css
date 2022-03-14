@@ -1,0 +1,13 @@
+.button-explorer {
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  margin: auto;
+  border-radius: 20px 20px;
+}
+
+.left-menu {
+  background-color: red;
+}
+.button-saves {
+  color: red;
+}

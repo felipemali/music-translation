@@ -1,0 +1,56 @@
+.content-music .container-content-music .content .text .container-input {
+  width: 70%;
+  padding-top: 0.5em;
+  border: 1px solid #00ffff;
+  margin-top: 2.7em;
+}
+.content-music .container-content-music .content .text .container-input .input {
+  padding: 0.5em;
+  padding-left: 1em;
+  width: 85%;
+  background-color: #fff;
+  border-radius: 40px 40px;
+  box-shadow: 1px 5px 40px 0px #616296;
+}
+.content-music
+  .container-content-music
+  .content
+  .text
+  .container-input
+  .input-music {
+  padding: 0.5em;
+  padding-left: 1em;
+  margin-left: 0px;
+  margin-top: 0.5em;
+  width: 85%;
+  background-color: #fff;
+  border-radius: 40px 40px;
+  box-shadow: 1px 5px 40px 0px #616296;
+}
+.content-music .container-content-music .content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8em;
+}
+.img-music {
+  width: 100%;
+}
+.content-music .container-content-music .content .container-img {
+  width: 60%;
+}
+.content-music .container-content-music .content .text {
+  color: #fff;
+  font-size: 35px;
+  width: 50%;
+  text-align: start;
+}
+.container-content-music .button-search-music {
+  color: #fff;
+  border: 1px solid #00ffff;
+  padding: 0.7em;
+  width: 40%;
+  margin-bottom: 3em;
+  margin-top: 7em;
+  box-shadow: 1px 5px 40px 0px #616296;
+  animation: effect-button 1s ease-in-out alternate infinite;
+}

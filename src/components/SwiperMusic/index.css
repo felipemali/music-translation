@@ -1,0 +1,28 @@
+.swiper-music {
+  background-color: #000000;
+  margin-top: 40em;
+}
+
+.swiper-music .swiper {
+  background-color: #000000;
+
+  width: 60%;
+  margin: auto;
+  border: 5px solid #fff;
+}
+.swiper-music .title-collection {
+  color: #fff;
+}
+
+.a {
+  color: #fff;
+}
+
+.b {
+  min-height: 200px;
+}
+
+.b:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

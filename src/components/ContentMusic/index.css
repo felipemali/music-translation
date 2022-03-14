@@ -1,0 +1,346 @@
+.content-music {
+}
+
+.content-music .container-content-music {
+  background: linear-gradient(
+      270deg,
+      #361a64 0,
+      #211353 25%,
+      #010120 60%,
+      #000018 75%,
+      #000000 100%
+    )
+    no-repeat;
+  padding-bottom: 10em;
+}
+.content-music .container-content-music .content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8em;
+}
+.content-music .container-content-music .content .text {
+  color: #fff;
+  font-size: 50px;
+  width: 30%;
+  text-align: start;
+}
+.content-music .container-content-music .content .text .word-color {
+  color: #00ffff;
+}
+.content-music .container-content-music .content .container-input {
+  padding-top: 0.5em;
+  border: 1px solid #00ffff;
+  margin-top: 2em;
+}
+.content-music .container-input .inputs {
+  padding-left: 0.3em;
+}
+
+.content-music .container-content-music .content .container-input .input {
+  padding: 0.5em;
+  padding-left: 1em;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 40px 40px;
+  box-shadow: 1px 5px 40px 0px #616296;
+}
+input {
+  font-size: 19px;
+}
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+input::placeholder {
+  font-size: 16px;
+  color: #67808f;
+}
+.content-music .container-content-music .content .container-input .input-music {
+  display: block;
+  padding: 0.5em;
+  padding-left: 1em;
+  margin-top: 0.5em;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 40px 40px;
+  box-shadow: 1px 5px 40px 0px #616296;
+}
+.content-music
+  .container-content-music
+  .content
+  .container-input
+  .button-search {
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  padding: 0.7em;
+  width: 98%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.img-music {
+  width: 90%;
+}
+.container-content-music .button-search-music {
+  color: #fff;
+  border: 1px solid #00ffff;
+  padding: 0.7em;
+  width: 20%;
+  margin-bottom: 1em;
+  margin-top: 7em;
+  box-shadow: 1px 5px 40px 0px #616296;
+  animation: effect-button 1s ease-in-out alternate infinite;
+}
+@keyframes effect-button {
+  to {
+    transform: translateY(10px);
+  }
+}
+:root {
+  --primary: hsla(240, 94%, 6%);
+  --secondary: rgb(5, 5, 48);
+}
+
+.content-music .container-content-music .content .container-img {
+  /* border: 1px solid yellow; */
+  width: 60%;
+  /* background: linear-gradient(135deg, var(--primary), var(--secondary)); */
+  /* url("https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2019/05/8-problemas-que-podem-ser-resolvidos-ouvindo-musica-8.jpg"); */
+}
+.content-music .container-content-music .content .container-img .img {
+  width: 100%;
+}
+@media (min-width: 1440px) {
+  .content-music .container-content-music .content .container-img {
+    margin-top: 2em;
+  }
+}
+@media (max-width: 1263px) {
+  .content-music .container-content-music .content .container-input .input {
+    padding: 0.5em;
+    padding-left: 1em;
+    width: 85%;
+    background-color: #fff;
+    border-radius: 40px 40px;
+    box-shadow: 1px 5px 40px 0px #616296;
+  }
+  .content-music
+    .container-content-music
+    .content
+    .container-input
+    .input-music {
+    display: block;
+    padding: 0.5em;
+    padding-left: 1em;
+    margin-top: 0.5em;
+    width: 85%;
+    background-color: #fff;
+    border-radius: 40px 40px;
+    box-shadow: 1px 5px 40px 0px #616296;
+  }
+}
+@media (max-width: 1009px) {
+  .content-music .container-content-music .content .container-img {
+    margin-top: 8em;
+    width: 70%;
+  }
+  .img-music {
+    width: 90%;
+    margin-top: 7em;
+  }
+  .content-music .container-content-music .content .container-input {
+    padding-top: 0.5em;
+    min-width: 300px;
+    width: 90%;
+    border: 1px solid #00ffff;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+}
+@media (max-width: 1024px) {
+  .content-music .container-content-music .content .container-input {
+    width: 100%;
+    padding-top: 0.5em;
+    border: 1px solid #00ffff;
+    margin-top: 2em;
+  }
+  .content-music
+    .container-content-music
+    .content
+    .container-input
+    .input-music {
+    display: block;
+    padding: 0.5em;
+    padding-left: 1em;
+    margin-top: 0.5em;
+    width: 85%;
+    background-color: #fff;
+    border-radius: 40px 40px;
+    box-shadow: 1px 5px 40px 0px #616296;
+  }
+  .content-music .container-content-music .content .container-input .input {
+    padding: 0.5em;
+    padding-left: 1em;
+    width: 85%;
+    background-color: #fff;
+    border-radius: 40px 40px;
+    box-shadow: 1px 5px 40px 0px #616296;
+  }
+  .content-music .container-content-music .content .text {
+    color: #fff;
+    font-size: 35px;
+    width: 30%;
+    text-align: start;
+  }
+  .content-music .container-content-music .content .container-img {
+    margin-top: 4em;
+    width: 60%;
+  }
+  .container-content-music .button-search-music {
+    color: #fff;
+    border: 1px solid #00ffff;
+    padding: 0.7em;
+    width: 30%;
+    margin-bottom: 3em;
+    margin-top: 7em;
+    box-shadow: 1px 5px 40px 0px #616296;
+    animation: effect-button 1s ease-in-out alternate infinite;
+  }
+}
+
+@media (max-width: 768px) {
+  @import "./middle.css";
+}
+@media (max-width: 571px) {
+  .content-music .container-content-music .content {
+    display: block;
+    padding-top: 4em;
+  }
+
+  .content-music
+    .container-content-music
+    .content
+    .container-input
+    .input-music {
+    padding: 0.5em;
+    padding-left: 1em;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87%;
+    background-color: #fff;
+    border-radius: 40px 40px;
+    box-shadow: 1px 5px 40px 0px #616296;
+  }
+  .content-music .container-content-music .content .container-input .input {
+    padding: 0.5em;
+    padding-left: 1em;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 40px 40px;
+    box-shadow: 1px 5px 40px 0px #616296;
+  }
+
+  .content-music .container-content-music .content .container-input {
+    padding-top: 0.5em;
+    width: 70%;
+
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+
+  .container-content-music .button-search-music {
+    color: #fff;
+    border: 1px solid #00ffff;
+    padding: 0.7em;
+    width: 70%;
+    margin-bottom: 3em;
+    margin-top: 7em;
+    box-shadow: 1px 5px 40px 0px #616296;
+    animation: effect-button 1s ease-in-out alternate infinite;
+  }
+  .content-music .container-content-music .content .container-img {
+    display: none;
+  }
+}
+/* @media (max-width: 425px) {
+  .content-music
+    .container-content-music
+    .content
+    .text
+    .container-input
+    .input-music {
+    padding: 200px;
+    padding-left: 1em;
+    margin: auto;
+    width: 87%;
+    background-color: #fff;
+    border-radius: 40px 40px;
+    box-shadow: 1px 5px 40px 0px #616296;
+  }
+  .content-music .container-content-music .content .container-input {
+    padding-top: 0.5em;
+    width: 70%;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+} */
+@media (max-width: 375px) {
+  .content-music
+    .container-content-music
+    .content
+    .container-input
+    .input-music {
+    padding: 0.5em;
+    padding-left: 1em;
+    margin-top: 0.5em;
+    margin-left: 0px;
+    margin-right: auto;
+    width: 82%;
+    background-color: #fff;
+    border-radius: 40px 40px;
+    box-shadow: 1px 5px 40px 0px #616296;
+  }
+  .content-music .container-content-music .content .container-input .input {
+    padding: 0.5em;
+    padding-left: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+    background-color: #fff;
+    border-radius: 40px 40px;
+    box-shadow: 1px 5px 40px 0px #616296;
+  }
+  .content-music .container-content-music .content .container-input {
+    padding-top: 0.5em;
+    width: 70%;
+    border: 1px solid #0fff;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+}
+@media (max-width: 320px) {
+  .content-music .container-content-music .content .container-input {
+    padding-top: 0.5em;
+    width: 90%;
+    border: 1px solid #00ffff;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+  .content-music .container-content-music .content .container-img {
+    margin-top: 1em;
+    width: 95%;
+  }
+}
