@@ -70,7 +70,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-item-columns">
-          <span className="footer-title-participate">Participe</span>
+          <span className="footer-title-participate">Participate</span>
           <a href="https://meu.vagalume.com.br/" className="footer-links">
             Create your profile
           </a>
