@@ -36,7 +36,7 @@ const LeftNavbar = (props) => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {["Salvos"].map((text, index) => (
+        {["Saves"].map((text, index) => (
           <ListItem button key={text}>
             <ListItemIcon></ListItemIcon>
             <ListItemText
@@ -64,7 +64,14 @@ const LeftNavbar = (props) => {
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button
-            className="button-explorer"
+            // className="button-menu"
+            sx={{
+              border: "1px solid #00ffff",
+              marginTop: "auto",
+              marginBottom: "auto",
+              borderRadius: "20px 20px",
+              color: "#00ffff",
+            }}
             onClick={toggleDrawer(anchor, true)}
           >
             {"Menu"}

@@ -21,9 +21,9 @@ const Menuu = (props) => {
 
   const buttonsCenter = [
     "Top 100",
-    "Estilos",
+    "Styles",
     "A-Z",
-    "Notícias",
+    "News",
     "Hot Spots",
     "Vagalume.FM",
   ];
@@ -92,9 +92,9 @@ const Menuu = (props) => {
             ))}
           </Menu>
         </Box>
-        <Button className="button-register">{"Cadastra-se"}</Button>
+        {/* <Button className="button-register">{"Cadastra-se"}</Button> */}
 
-        {/* <LeftNavbar setOnDisplay={props.setOnDisplay} /> */}
+        <LeftNavbar setOnDisplay={props.setOnDisplay} />
       </Container>
     </div>
   );

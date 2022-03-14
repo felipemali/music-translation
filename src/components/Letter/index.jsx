@@ -91,7 +91,7 @@ const Letter = (props) => {
                   })
                 }
               >
-                {"salvar Letra"}
+                {"Save lyrics"}
               </Button>
             </div>
             <div className="translation-letter">

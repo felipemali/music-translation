@@ -1,22 +1,21 @@
-import { Button, Container, Modal } from "@mui/material";
+import { Button, Container } from "@mui/material";
 import React, { useState } from "react";
 import "./index.css";
 import imgMusica from "../../img/musica.png";
-import useMediaQuery from "@mui/material/useMediaQuery";
 
 const ContentMusic = ({ artistt, musicArtist, setOnLetter }) => {
-  const [typeValue, setTypeValue] = useState("");
-  const [musica, setMusica] = useState("");
+  const [nameArtist, setNameArtist] = useState("");
+  const [nameMusic, setNameMusic] = useState("");
   const [button, setButton] = useState("inline-flex");
   const [error, setError] = useState("");
 
   const data = (artist, music) => {
-    if (typeValue == "") {
+    if (nameArtist == "") {
       setError({
         inputArtist: " 1px 1 px 20px 3px red",
         inputMusic: " 1px 5px 40px 0px #616296",
       });
-    } else if (musica == "") {
+    } else if (nameMusic == "") {
       setError({
         inputArtist: " 1px 5px 40px 0px #616296",
         inputMusic: " 1px 3px 25px 0px red",
@@ -28,8 +27,8 @@ const ContentMusic = ({ artistt, musicArtist, setOnLetter }) => {
       });
       artistt(artist);
       musicArtist(music);
-      setTypeValue("");
-      setMusica("");
+      setNameArtist("");
+      setNameMusic("");
     }
   };
 
@@ -38,40 +37,39 @@ const ContentMusic = ({ artistt, musicArtist, setOnLetter }) => {
       <Container className="container-content-music" maxWidth="false">
         <div className="content">
           <span className="text">
-            Descubra a <span className="word-color">letra</span> da sua música
-            <span className="word-color"> preferida </span> aqui
-            
+            Find the <span className="word-color">lyrics</span> of your
+            <span className="word-color"> favorite </span> song here
             <div className="container-input">
               <div className="inputs">
                 <input
                   style={{
                     boxShadow: `${error.inputArtist}`,
                   }}
-                  value={typeValue}
+                  value={nameArtist}
                   type="text"
                   className="input"
-                  placeholder="Digite o nome do artista"
-                  onChange={(e) => setTypeValue(e.target.value)}
+                  placeholder="Enter artist name"
+                  onChange={(e) => setNameArtist(e.target.value)}
                 />
 
                 <input
                   style={{ boxShadow: `${error.inputMusic}` }}
-                  value={musica}
+                  value={nameMusic}
                   type="text"
                   className="input-music"
-                  placeholder="Digite o nome da música"
-                  onChange={(e) => setMusica(e.target.value)}
+                  placeholder="Enter the song name"
+                  onChange={(e) => setNameMusic(e.target.value)}
                 />
                 <Button
                   href="#letterr"
                   className="button-search"
                   onClick={() => {
-                    data(typeValue, musica);
+                    data(nameArtist, nameMusic);
                     setOnLetter("inline");
                     setButton("none");
                   }}
                 >
-                  {"Buscar"}
+                  {"Search"}
                 </Button>
               </div>
             </div>
@@ -87,7 +85,7 @@ const ContentMusic = ({ artistt, musicArtist, setOnLetter }) => {
             display: `${button}`,
           }}
         >
-          {"Faça a Busca de uma Música"}
+          {"Search for a song"}
         </Button>
       </Container>
     </div>

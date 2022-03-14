@@ -63,7 +63,7 @@ const Home = () => {
           views={data?.views}
         />
       )}
-      <SwiperMusic salvos={salvos} onDisplay={onDisplay} data={data} />
+      {/* <SwiperMusic salvos={salvos} onDisplay={onDisplay} data={data} /> */}
       <Footer />
     </div>
   );

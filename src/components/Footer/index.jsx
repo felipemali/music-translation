@@ -30,26 +30,21 @@ const Footer = () => {
             <InstagramIcon className="img-icone" />
           </Link>
         </Button>
-        {/* <Button className="icone reddit-mobile">
-          <Link href="https://www.reddit.com/r/leagueoflegends/">
-            <RedditIcon className="img-icone" />
-          </Link>
-        </Button> */}
       </div>
       <div className="footer-columns">
         <div className="footer-item-columns">
-          <span className="footer-title-see-more">Veja também</span>
+          <span className="footer-title-see-more">See too</span>
           <a
             href="https://www.vagalume.com.br/playlisteiros/"
             className="footer-links"
           >
-            Playlisteiros
+            PlayListers
           </a>
           <a
             href="https://www.vagalume.com.br/news/tags/especiais/"
             className="footer-links"
           >
-            Especiais
+            specials
           </a>
           <a
             href="https://www.vagalume.com.br/browse/hotspots/"
@@ -68,25 +63,25 @@ const Footer = () => {
             href="https://vagalume.zendesk.com/hc/pt-br"
             className="footer-links"
           >
-            Central de Ajuda
+            Help Center
           </a>
           <a href="https://www.vagalume.com.br/terms/" className="footer-links">
-            Termos de Uso
+            Terms of use
           </a>
         </div>
         <div className="footer-item-columns">
           <span className="footer-title-participate">Participe</span>
           <a href="https://meu.vagalume.com.br/" className="footer-links">
-            Crie seu perfil
+            Create your profile
           </a>
           <a href="https://www.vagalume.com.br/add/" className="footer-links">
-            Cadastrar letras ou artistas
+            Register lyrics or artists
           </a>
           <a
             href="https://www.vagalume.com.br/legenda/"
             className="footer-links"
           >
-            Criar legendas em clipes
+            Create captions on clips
           </a>
         </div>
         <div className="footer-item-columns">
@@ -95,17 +90,17 @@ const Footer = () => {
             href="https://www.vagalume.com.br/top100/artistas/nacional/2022/03/"
             className="footer-links-ranking"
           >
-            Top 100 Nacional
+            Top 100 National
           </a>
           <a
             href="https://www.vagalume.com.br/top100/artistas/internacional/2022/03/"
             className="footer-links-ranking"
           >
-            Top 100 Internacional
+            Top 100 International
           </a>
         </div>
         <div className="footer-item-columns">
-          <span className="footer-vagalume">Vagalume. Música é tudo</span>
+          <span className="footer-vagalume">Vagalume. Music is everything</span>
           <img
             className="footer-img"
             src="https://www.vagalume.com.br/img/logos/vglfm-app-icon.webp"

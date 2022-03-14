@@ -1,5 +1,5 @@
-import { Container, Link, Paper } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import { Container } from "@mui/material";
+import React from "react";
 import "./index.css";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,7 +9,16 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import axios from "axios";
+//
+//
+//
+//
+
+// Não está sendo usado
+//
+//
+//
+//
 
 const SwiperMusic = (props) => {
   SwiperCore.use([Autoplay]);
